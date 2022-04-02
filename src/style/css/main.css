@@ -1,0 +1,165 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #E5E5E5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #4B321D;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+span {
+  display: block;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.btn {
+  color: #4B321D;
+  border: #4B321D 2px solid;
+  border-radius: 4px;
+  padding: 10px 17px;
+}
+.btn:hover {
+  background-color: orange;
+}
+
+.header {
+  padding: 30px 0 135px;
+}
+
+.nav-list {
+  padding-right: 140px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #4B321D;
+  padding: 0 35px 0 0;
+}
+.nav-link:hover {
+  color: orange;
+}
+
+.main-title {
+  font-size: 80px;
+  color: #4B321D;
+  line-height: 100px;
+}
+
+.secondary-title {
+  font-size: 80px;
+  color: #4B321D;
+  line-height: 100px;
+  letter-spacing: -1px;
+  padding: 0 0 45px 0;
+}
+
+.services {
+  padding-top: 100px;
+}
+
+.services-content-holder {
+  padding-bottom: 90px;
+}
+
+.services-title {
+  font-size: 38px;
+  max-width: 600px;
+  line-height: 44px;
+  padding-bottom: 25px;
+}
+
+.insta-content {
+  padding-right: 80px;
+}
+
+.services-content {
+  padding-left: 90px;
+}
+
+.banner-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #4B321D;
+  border-radius: 8px;
+}
+
+.banner-holder {
+  padding: 85px 0 110px;
+}
+
+.banner-heading {
+  color: #F1F1EB;
+  font-size: 80px;
+  line-height: 100px;
+  padding-left: 60px;
+}
+
+.banner-subheading {
+  color: #F1F1EB;
+  font-size: 26px;
+  line-height: 36px;
+  padding-left: 60px;
+}
+
+.copyright {
+  padding-top: 190px;
+}
+
+.copyright-img {
+  width: 50px;
+  padding-top: 84px;
+}
+
+.footer-nav {
+  padding-top: 190px;
+}
+
+.footer-menu {
+  padding-left: 140px;
+}
